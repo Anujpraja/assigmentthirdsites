@@ -1,0 +1,64 @@
+body {
+    background-image: url("/home/anuj/Desktop/Assigment3/picture/download.png"), linear-gradient(to bottom, #0c004d, #473678, #7c6ea4, #b3aad1, #eeeaff);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.container .maintext {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.maintext h1 {
+    font-size: 26px;
+    color: white;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 25%;
+}
+
+.texttwo {
+    width: 40%;
+}
+
+.texttwo h2 {
+    width: 50%;
+    color: white;
+    margin-left: 20%;
+    font-size: 18px;
+}
+
+.headingclick {
+    display: flex;
+    margin-top: 2%;
+    width: 30%;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 32%;
+}
+
+.headingclick a {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 4px 8px;
+    cursor: pointer;
+    margin-left: 2%;
+    flex-direction: column-reverse;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
